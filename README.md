@@ -1,4 +1,4 @@
-# RaspberryPi-coding
+# RaspberryPi  Coding
 Template with links to running code on Raspberry Pi
 
 ## Install docker 
