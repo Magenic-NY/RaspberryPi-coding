@@ -48,6 +48,46 @@ sudo pip3 install docker-compose
 ```
 
 
+In this tutorial I am using this repo https://github.com/mrcoles/node-react-docker-compose 
+
+
+what you would need to exec anything , is just clonning the code into the Raspberry Pi 
+
+```
+git clone https://github.com/mrcoles/node-react-docker-compose.git
+cd node-react-docker-compose 
+```
+
+then 
+
+```
+docker-compose up
+```
+
+docker compose will prep the images for you and run them, then you will be able to edit files and update them.
+
+you can now access the running app from 
+
+RaspberryPI_IP:3000 (Client App)
+
+RaspberryPI_IP:8080/api (Server App)
+
+
+
+if you want to run thye images in the background
+
+
+
+use 
+```
+docker-compose up -d
+```
+
+
+
+
+
+
 Docker on April 7 2020 announced that compose specification are now open
 
 https://www.docker.com/blog/announcing-the-compose-specification/
