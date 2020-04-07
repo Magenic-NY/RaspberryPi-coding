@@ -48,5 +48,6 @@ sudo pip3 install docker-compose
 ```
 
 
+Docker on April 7 2020 announced that compose specification are now open
 
-
+https://www.docker.com/blog/announcing-the-compose-specification/
